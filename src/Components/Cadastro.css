@@ -1,59 +1,59 @@
 .signup-form {
-  max-width: 800px; /* Largura máxima do formulário */
-  margin: 0 auto; /* Centraliza o formulário */
-  padding: 1rem; /* Espaçamento interno */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .signup-form h2 {
-  text-align: center; /* Alinha o título ao centro */
+  text-align: center;
   color: #333;
-  margin-bottom: 1.5rem; /* Espaçamento abaixo do título */
+  margin-bottom: 1.5rem;
 }
 
 .form-container {
-  display: flex; /* Ativa o Flexbox */
-  justify-content: space-between; /* Espaçamento igual entre as colunas */
+  display: flex;
+  justify-content: space-between;
 }
 
 .column1, .column2 {
-  flex: 1; /* Faz com que ambas as colunas ocupem o mesmo espaço */
-  margin-right: 1rem; /* Adiciona espaçamento entre as colunas */
+  flex: 1;
+  margin-right: 1rem;
 }
 
 .column2 {
-  margin-right: 0; /* Remove a margem da última coluna */
+  margin-right: 0;
 }
 
 .signup-form div {
-  margin-bottom: 1rem; /* Espaçamento entre os campos */
+  margin-bottom: 1rem;
 }
 
 .signup-form label {
-  margin-bottom: 0.5rem; /* Espaçamento abaixo do rótulo */
-  font-weight: bold; /* Deixa o rótulo em negrito */
-  display: block; /* Faz com que o rótulo ocupe a linha inteira */
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  display: block;
 }
 
 .signup-form input {
-  width: 100%; /* O campo ocupa toda a largura disponível */
-  padding: 0.75rem; /* Espaçamento interno */
-  border: 1px solid #ccc; /* Borda padrão */
-  border-radius: 4px; /* Bordas arredondadas */
-  box-sizing: border-box; /* Inclui padding e borda no cálculo de largura */
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .signup-form button {
-  display: block; /* Faz com que o botão ocupe uma linha inteira */
-  width: 100%; /* O botão ocupa toda a largura disponível */
-  background-color: #007bff; /* Cor de fundo do botão */
-  color: white; /* Cor do texto */
-  border: none; /* Remove borda */
-  padding: 0.75rem 1.5rem; /* Espaçamento interno do botão */
-  border-radius: 4px; /* Bordas arredondadas do botão */
-  cursor: pointer; /* Muda o cursor ao passar o mouse */
-  margin-top: 1rem; /* Espaçamento acima do botão */
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 
 .signup-form button:hover {
-  background-color: #0056b3; /* Cor do botão ao passar o mouse */
+  background-color: #0056b3;
 }
