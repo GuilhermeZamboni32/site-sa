@@ -1,59 +1,104 @@
-.signup-form {
-  max-width: 800px; /* Largura máxima do formulário */
-  margin: 0 auto; /* Centraliza o formulário */
-  padding: 1rem; /* Espaçamento interno */
+.header {
+  width: 100%;
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 15px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-.signup-form h2 {
-  text-align: center; /* Alinha o título ao centro */
-  color: #333;
-  margin-bottom: 1.5rem; /* Espaçamento abaixo do título */
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.botaoVoltar {
+  background-color: #63c4e4;
+  color: #fff;
+  border: none;
+  padding: 10px 15px; 
+  cursor: pointer;
+}
+
+.espacoVaziu{
+  width: 100%;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #63c4e4;
+  height: 99vh;
+  width: 100%;
 }
 
 .form-container {
-  display: flex; /* Ativa o Flexbox */
-  justify-content: space-between; /* Espaçamento igual entre as colunas */
+  background-color: #1a73e8;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.column1, .column2 {
-  flex: 1; /* Faz com que ambas as colunas ocupem o mesmo espaço */
-  margin-right: 1rem; /* Adiciona espaçamento entre as colunas */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.column2 {
-  margin-right: 0; /* Remove a margem da última coluna */
+.input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-.signup-form div {
-  margin-bottom: 1rem; /* Espaçamento entre os campos */
+.submit-button {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.signup-form label {
-  margin-bottom: 0.5rem; /* Espaçamento abaixo do rótulo */
-  font-weight: bold; /* Deixa o rótulo em negrito */
-  display: block; /* Faz com que o rótulo ocupe a linha inteira */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
-.signup-form input {
-  width: 100%; /* O campo ocupa toda a largura disponível */
-  padding: 0.75rem; /* Espaçamento interno */
-  border: 1px solid #ccc; /* Borda padrão */
-  border-radius: 4px; /* Bordas arredondadas */
-  box-sizing: border-box; /* Inclui padding e borda no cálculo de largura */
+.form-container {
+  width: 100%; 
+  max-width: 400px; 
+  padding: 20px; 
 }
 
-.signup-form button {
-  display: block; /* Faz com que o botão ocupe uma linha inteira */
-  width: 100%; /* O botão ocupa toda a largura disponível */
-  background-color: #007bff; /* Cor de fundo do botão */
-  color: white; /* Cor do texto */
-  border: none; /* Remove borda */
-  padding: 0.75rem 1.5rem; /* Espaçamento interno do botão */
-  border-radius: 4px; /* Bordas arredondadas do botão */
-  cursor: pointer; /* Muda o cursor ao passar o mouse */
-  margin-top: 1rem; /* Espaçamento acima do botão */
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
-.signup-form button:hover {
-  background-color: #0056b3; /* Cor do botão ao passar o mouse */
+.input {
+  margin-top: 10px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.submit-button {
+  margin-top: 20px; 
+  padding: 10px;
+  background-color: #007BFF; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; 
 }
